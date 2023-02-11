@@ -1,0 +1,36 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	padding: 0 1rem;
+	background-color: var(--mainColorDark);
+	color: var(--textColor-white);
+	border-bottom: .4rem solid var(--mainColorLight);
+	border-right: .8rem solid var(--mainColorLight);
+}
+
+#logo {
+    margin-left: 1.2rem;
+	height: 2.5rem;
+
+}
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor-white);
+	text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+	/* text-decoration: underline; */
+}
+
+/* @media screen and (max-width: 992px) {
+    div {
+      column-gap: 2rem;
+    }
+  } */
+

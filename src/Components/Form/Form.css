@@ -1,0 +1,76 @@
+.contact-form {
+    padding: 2rem 0;
+    /* text-align: center; */
+    background-color: var(--mainColor);
+    border:1px solid black;
+    display: flex;
+    flex-direction: row; 
+     /* justify-content: space-evenly; */
+    margin: 5% 12.5% ;
+    justify-content: space-between;
+    /* left:30%;  */
+  }
+  
+  .contact-container {
+    /* display: flex;
+    justify-content: space-between; */
+    column-gap: 6rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    /* border-right: .1rem solid var(--border-color); */
+    /* text-align: center; */
+
+  }
+
+
+  .contact-line{
+    height:320px;
+    margin-top:2.5rem;
+    border:.01rem solid var(--border-color);
+  }
+  .form-data {
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    margin: 1.5rem;
+  }
+
+/* .contact-data{
+     font-weight:2rem;
+    /* text-align: left; */
+    /* float: left; */
+    /* right:20px; */
+  /* }  */ 
+  
+  .form-data .form-group {
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--border-color);
+    /* border-radius: 10%; */
+  }
+  
+   .form-data .form-group input {
+    width: 100%;
+    border-radius: 1rem;
+    border: .1 solid var(--border-color);
+    padding: 1.2rem;
+    font-size: 1rem;
+    text-align: start;
+    resize: none;
+    outline: none;
+    background: transparent;
+    text-align: left;
+    color: var(--color-white);
+  }
+  
+ 
+   
+  Button{
+    height: 3rem;
+    width: 100%;
+    color: var(--textColor);
+    font-size: 1.4rem;
+    background-color:   var(--button-color);
+
+  } 
+  

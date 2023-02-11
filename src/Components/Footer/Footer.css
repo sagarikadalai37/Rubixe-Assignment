@@ -1,0 +1,28 @@
+footer{
+    
+    background-color: var(--mainColorDark);
+    text-align: center;
+    height: 3rem;
+    border-right: .4rem solid var(--mainColorLight);
+    
+  }
+  
+  footer .description{
+   /* margin: 1rem; */
+   color: var(--textColor-white);
+   padding-top: 1rem ;
+   margin-right: 18rem ;
+   font-size: 0.9rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    .description {
+        font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .description {
+        font-size: .7rem;
+    }
+  }

@@ -1,0 +1,20 @@
+.Started {
+    /* margin:5% 12.5%; */
+    height: 100%;
+    width: 100%;
+    background: var(--color-bg-pink);
+    /* text-align: left; */
+    letter-spacing: .8px;
+    color: var(--textColor-white);
+  }
+  .Started-heading {
+    margin-left: 17%;
+    margin-top: 0;
+    padding-top: 1rem;
+  }
+  .Started-info {
+    margin-left: 17%;
+    padding-bottom: 25px;
+    line-height: 20px;
+  }
+  

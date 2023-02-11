@@ -1,0 +1,27 @@
+.about{
+    background-color: var(--secondaryColor);
+    height:auto;
+    /* margin:12.5%; */
+    line-height: 23px;
+}
+.about-container{
+    /* margin:12.5%; */
+    display: flex;
+    padding: 6%  12.5%;
+}
+.child{
+    /* margin:1%; */
+    margin:10px;
+    
+}
+ .child1{
+    /* padding:20px; */
+    margin:10px 40px;
+} 
+
+p{
+    font-size: 13px; 
+}
+h6{
+    margin-bottom: 1rem;
+}

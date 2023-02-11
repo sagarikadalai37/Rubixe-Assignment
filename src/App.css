@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	--mainColor: #fdfdfd;
+    --mainColorDark:#000;
+	--mainColorLight: #c1c1c7;
+	--secondaryColor: #dee0e0;
+	--textColor: #eee;
+    --color-bg: #eee;
+	--color-bg-pink:#bb0879;
+	--color-green:#165c33;
+	--textColor-white: #fff;
+    --textColour-dark:#000;
+	--button-color: rgb(5, 5, 31);
+	--border-color:#000;
+	
+}
+  
+  /* ================== MEDIA QUERY =================== */
+  
+  @media screen and (max-width: 1024px) {
+	html {
+	  font-size: 15px;
+	}
+  
+	.app {
+	  width: var(--container-md-width);
+	}
+  }
+  
+  @media screen and (max-width: 992px) {
+	html {
+	  font-size: 14px;
+	}
+  
+	.app {
+	  width: var(--container-md-width);
+	}
+  }
+  
+  @media screen and (max-width: 768px) {
+	.app {
+	  width: var(--container-sm-width);
+	}
+  }
+  
+  @media screen and (max-width: 576px) {
+	html {
+	  font-size: 13x;
+	}
+  
+	.app {
+	  width: var(--container-xs-width);
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	html {
+	  font-size: 12px;
+	}
+  
+	.app {
+	  width: var(--container-xs-width);
+	}
+  }
+
+  /* @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  } */
